@@ -1,0 +1,67 @@
+{
+  "temperature": 67.2,
+  "level": "进攻",
+  "emoji": "🟢",
+  "color": "#27AE60",
+  "advice": "今日温度 67.2 ℃，市场偏暖，可适度建仓",
+  "scores": {
+    "limit_ratio": 87.7,
+    "northbound": 60.0,
+    "margin": 55.0,
+    "deviation": 60.2,
+    "advance_decline": 70.0,
+    "style": 42.5
+  },
+  "components": {
+    "limit_ratio": {
+      "zt": 71,
+      "dt": 10,
+      "ratio": 0.8767,
+      "date": "2026-04-14"
+    },
+    "northbound": {
+      "daily_net_inflow_yi": 16.0,
+      "note": "4月14日北向资金净流入约16亿"
+    },
+    "margin": {
+      "status": "已获取",
+      "total_records": 1740,
+      "change_trend": "小幅增长"
+    },
+    "deviation": {
+      "current": 4026.63,
+      "ma20": 3946.08,
+      "pct": 0.0204
+    },
+    "advance_decline": {
+      "up": 3515,
+      "down": 1505,
+      "ratio": 0.7002,
+      "date": "2026-04-14"
+    },
+    "style": {
+      "sh50_pct": 0.85,
+      "cyb_pct": 2.36,
+      "dispersion": -1.51
+    }
+  },
+  "weights": {
+    "limit_ratio": 0.25,
+    "northbound": 0.20,
+    "margin": 0.15,
+    "deviation": 0.15,
+    "advance_decline": 0.15,
+    "style": 0.10
+  },
+  "indicator_details": [
+    {"name": "涨跌停比", "value": 87.7, "raw": "涨停71/跌停10", "weight": "25%"},
+    {"name": "北向资金", "value": 60.0, "raw": "净流入16亿", "weight": "20%"},
+    {"name": "融资余额", "value": 55.0, "raw": "小幅增长", "weight": "15%"},
+    {"name": "指数偏离MA20", "value": 60.2, "raw": "+2.04%", "weight": "15%"},
+    {"name": "涨跌家数", "value": 70.0, "raw": "3515涨/1505跌", "weight": "15%"},
+    {"name": "风格离散度", "value": 42.5, "raw": "上证50+0.85% 创业板+2.36%", "weight": "10%"}
+  ],
+  "update_time": "2026-04-15 09:00:00",
+  "data_source": "akshare + 同花顺问财",
+  "data_date": "2026-04-14"
+}

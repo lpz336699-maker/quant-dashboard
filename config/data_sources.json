@@ -1,0 +1,7 @@
+{
+  "sector": "industry",
+  "frequency": "daily",
+  "trade_date": null,
+  "industry": "sw",
+  "fields": "trade_date,close,open,high,low,vol,amount,pct_chg"
+}

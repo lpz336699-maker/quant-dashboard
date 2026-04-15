@@ -1,0 +1,56 @@
+{
+  "market_temperature": {
+    "limit_up_ratio": 0.25,
+    "northbound_flow": 0.20,
+    "margin_balance": 0.15,
+    "index_deviation_ma20": 0.15,
+    "advance_decline_ratio": 0.15,
+    "style_dispersion": 0.10,
+    "history_window": 250
+  },
+  "financial_red_flags": {
+    "R01_goodwill_ratio": 0.30,
+    "R02_ar_growth_vs_revenue": 2.0,
+    "R02_ar_to_revenue": 0.30,
+    "R03_ocf_to_profit": 0.50,
+    "R04_inventory_growth_vs_revenue": 2.0,
+    "R05_debt_growth": 0.30,
+    "R05_debt_ratio": 0.60,
+    "R06_pledge_ratio": 0.70,
+    "R08_profit_decline": -0.50,
+    "R09_margin_drop": 0.05,
+    "R11_reduce_ratio": 0.01,
+    "R12_ar_prepaid_ratio": 0.50,
+    "score_sell": 6,
+    "score_watch": 3,
+    "score_notice": 1
+  },
+  "portfolio": {
+    "single_position_warning": 0.30,
+    "concentration_warning": 0.40,
+    "daily_drop_alert": -0.05,
+    "profit_key": 0.20,
+    "loss_key": -0.10,
+    "max_drawdown_days": 250
+  },
+  "valuation": {
+    "floor_percentile": 10,
+    "low_percentile": 30,
+    "high_percentile": 70,
+    "ceiling_percentile": 90,
+    "history_years": 5
+  },
+  "expectation": {
+    "beat_threshold": 0.10,
+    "miss_alert_threshold": -0.20,
+    "continuous_beat_threshold": 0.15
+  },
+  "notify": {
+    "channel": "serverchan",
+    "serverchan_key": "",
+    "pushplus_token": "",
+    "daily_time": "15:35",
+    "weekly_time": "sunday 19:00"
+  },
+  "risk_profile": "standard"
+}

@@ -1,0 +1,56 @@
+{
+  "portfolio": [
+    {
+      "code": "600519",
+      "name": "贵州茅台",
+      "shares": 10,
+      "cost_price": 1680.00,
+      "buy_date": "2025-06-15",
+      "sector": "白酒"
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "shares": 100,
+      "cost_price": 185.50,
+      "buy_date": "2025-08-20",
+      "sector": "新能源"
+    },
+    {
+      "code": "601318",
+      "name": "中国平安",
+      "shares": 500,
+      "cost_price": 42.80,
+      "buy_date": "2025-09-10",
+      "sector": "保险"
+    },
+    {
+      "code": "000858",
+      "name": "五粮液",
+      "shares": 200,
+      "cost_price": 145.20,
+      "buy_date": "2025-10-05",
+      "sector": "白酒"
+    },
+    {
+      "code": "002594",
+      "name": "比亚迪",
+      "shares": 50,
+      "cost_price": 228.00,
+      "buy_date": "2025-11-15",
+      "sector": "新能源汽车"
+    }
+  ],
+  "watchlist": [
+    {"code": "600036", "name": "招商银行", "sector": "银行"},
+    {"code": "000333", "name": "美的集团", "sector": "家电"},
+    {"code": "601012", "name": "隆基绿能", "sector": "光伏"},
+    {"code": "300059", "name": "东方财富", "sector": "券商"},
+    {"code": "002475", "name": "立讯精密", "sector": "消费电子"},
+    {"code": "600900", "name": "长江电力", "sector": "电力"},
+    {"code": "603259", "name": "药明康德", "sector": "医药"},
+    {"code": "002714", "name": "牧原股份", "sector": "畜牧"},
+    {"code": "601899", "name": "紫金矿业", "sector": "有色金属"},
+    {"code": "600809", "name": "山西汾酒", "sector": "白酒"}
+  ]
+}

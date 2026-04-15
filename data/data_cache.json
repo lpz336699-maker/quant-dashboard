@@ -1,0 +1,1092 @@
+{
+  "data_date": "2026-04-14",
+  "last_update": "2026-04-15 09:30",
+  "market_temperature": {
+    "temperature": 67.2,
+    "level": "进攻",
+    "emoji": "🟢",
+    "color": "#27AE60",
+    "advice": "今日温度 67.2 ℃，市场偏暖，可适度建仓",
+    "scores": {
+      "limit_ratio": 87.7,
+      "northbound": 60.0,
+      "margin": 55.0,
+      "deviation": 60.2,
+      "advance_decline": 70.0,
+      "style": 42.5
+    },
+    "components": {
+      "limit_ratio": {
+        "zt": 71,
+        "dt": 10,
+        "ratio": 0.8767,
+        "date": "2026-04-14"
+      },
+      "northbound": {
+        "daily_net_inflow_yi": 16.0,
+        "note": "4月14日北向资金净流入约16亿"
+      },
+      "margin": {
+        "status": "已获取",
+        "total_records": 1740,
+        "change_trend": "小幅增长"
+      },
+      "deviation": {
+        "current": 4026.63,
+        "ma20": 3946.08,
+        "pct": 0.0204
+      },
+      "advance_decline": {
+        "up": 3515,
+        "down": 1505,
+        "ratio": 0.7002,
+        "date": "2026-04-14"
+      },
+      "style": {
+        "sh50_pct": 0.85,
+        "cyb_pct": 2.36,
+        "dispersion": -1.51
+      }
+    },
+    "weights": {
+      "limit_ratio": 0.25,
+      "northbound": 0.2,
+      "margin": 0.15,
+      "deviation": 0.15,
+      "advance_decline": 0.15,
+      "style": 0.1
+    },
+    "indicator_details": [
+      {
+        "name": "涨跌停比",
+        "value": 87.7,
+        "raw": "涨停71/跌停10",
+        "weight": "25%"
+      },
+      {
+        "name": "北向资金",
+        "value": 60.0,
+        "raw": "净流入16亿",
+        "weight": "20%"
+      },
+      {
+        "name": "融资余额",
+        "value": 55.0,
+        "raw": "小幅增长",
+        "weight": "15%"
+      },
+      {
+        "name": "指数偏离MA20",
+        "value": 60.2,
+        "raw": "+2.04%",
+        "weight": "15%"
+      },
+      {
+        "name": "涨跌家数",
+        "value": 70.0,
+        "raw": "3515涨/1505跌",
+        "weight": "15%"
+      },
+      {
+        "name": "风格离散度",
+        "value": 42.5,
+        "raw": "上证50+0.85% 创业板+2.36%",
+        "weight": "10%"
+      }
+    ],
+    "update_time": "2026-04-15 09:00:00",
+    "data_source": "akshare + 同花顺问财",
+    "data_date": "2026-04-14"
+  },
+  "portfolio": {
+    "kpi": {
+      "total_market_value": 112844.0,
+      "total_cost": 97190.0,
+      "total_pnl": 15654.0,
+      "total_pnl_pct": 16.11,
+      "today_pnl": 1143.59,
+      "today_pnl_pct": 1.02,
+      "max_drawdown": -8.5,
+      "max_concentration": 38.2,
+      "stock_count": 5
+    },
+    "stocks": [
+      {
+        "code": "600519",
+        "name": "贵州茅台",
+        "sector": "白酒",
+        "shares": 10,
+        "cost_price": 1680,
+        "current_price": 1446.9,
+        "today_pct": 0.25,
+        "market_value": 14469.0,
+        "cost_value": 16800,
+        "total_pnl": -2331.0,
+        "total_pnl_pct": -13.87,
+        "today_pnl": 36.17,
+        "hold_days": 150
+      },
+      {
+        "code": "300750",
+        "name": "宁德时代",
+        "sector": "新能源",
+        "shares": 100,
+        "cost_price": 185.5,
+        "current_price": 430.79,
+        "today_pct": 0.86,
+        "market_value": 43079.0,
+        "cost_value": 18550.0,
+        "total_pnl": 24529.0,
+        "total_pnl_pct": 132.23,
+        "today_pnl": 370.48,
+        "hold_days": 150
+      },
+      {
+        "code": "601318",
+        "name": "中国平安",
+        "sector": "保险",
+        "shares": 500,
+        "cost_price": 42.8,
+        "current_price": 58.97,
+        "today_pct": 2.11,
+        "market_value": 29485.0,
+        "cost_value": 21400.0,
+        "total_pnl": 8085.0,
+        "total_pnl_pct": 37.78,
+        "today_pnl": 622.13,
+        "hold_days": 150
+      },
+      {
+        "code": "000858",
+        "name": "五粮液",
+        "sector": "白酒",
+        "shares": 200,
+        "cost_price": 145.2,
+        "current_price": 103.1,
+        "today_pct": 0.66,
+        "market_value": 20620.0,
+        "cost_value": 29040.0,
+        "total_pnl": -8420.0,
+        "total_pnl_pct": -28.99,
+        "today_pnl": 136.09,
+        "hold_days": 150
+      },
+      {
+        "code": "002594",
+        "name": "比亚迪",
+        "sector": "新能源汽车",
+        "shares": 50,
+        "cost_price": 228,
+        "current_price": 103.82,
+        "today_pct": -0.41,
+        "market_value": 5191.0,
+        "cost_value": 11400,
+        "total_pnl": -6209.0,
+        "total_pnl_pct": -54.46,
+        "today_pnl": -21.28,
+        "hold_days": 150
+      }
+    ],
+    "sector_distribution": {
+      "白酒": 35089.0,
+      "新能源": 43079.0,
+      "保险": 29485.0,
+      "新能源汽车": 5191.0
+    }
+  },
+  "red_flags": {
+    "600519": {
+      "name": "贵州茅台",
+      "flags": [],
+      "score": 0,
+      "high_count": 0,
+      "mid_count": 0,
+      "action": "安全"
+    },
+    "300750": {
+      "name": "宁德时代",
+      "flags": [],
+      "score": 0,
+      "high_count": 0,
+      "mid_count": 0,
+      "action": "安全"
+    },
+    "601318": {
+      "name": "中国平安",
+      "flags": [],
+      "score": 0,
+      "high_count": 0,
+      "mid_count": 0,
+      "action": "安全"
+    },
+    "000858": {
+      "name": "五粮液",
+      "flags": [],
+      "score": 0,
+      "high_count": 0,
+      "mid_count": 0,
+      "action": "安全"
+    },
+    "002594": {
+      "name": "比亚迪",
+      "flags": [
+        {
+          "code": "R09",
+          "name": "估值偏高",
+          "severity": "mid",
+          "detail": "PB分位64%"
+        }
+      ],
+      "score": 1,
+      "high_count": 0,
+      "mid_count": 1,
+      "action": "知悉"
+    },
+    "600036": {
+      "name": "招商银行",
+      "flags": [],
+      "score": 0,
+      "high_count": 0,
+      "mid_count": 0,
+      "action": "安全"
+    },
+    "000333": {
+      "name": "美的集团",
+      "flags": [],
+      "score": 0,
+      "high_count": 0,
+      "mid_count": 0,
+      "action": "安全"
+    },
+    "601012": {
+      "name": "隆基绿能",
+      "flags": [
+        {
+          "code": "R04",
+          "name": "亏损企业",
+          "severity": "mid",
+          "detail": "PE=-24.0"
+        }
+      ],
+      "score": 1,
+      "high_count": 0,
+      "mid_count": 1,
+      "action": "知悉"
+    },
+    "300059": {
+      "name": "东方财富",
+      "flags": [],
+      "score": 0,
+      "high_count": 0,
+      "mid_count": 0,
+      "action": "安全"
+    },
+    "002475": {
+      "name": "立讯精密",
+      "flags": [],
+      "score": 0,
+      "high_count": 0,
+      "mid_count": 0,
+      "action": "安全"
+    },
+    "600900": {
+      "name": "长江电力",
+      "flags": [],
+      "score": 0,
+      "high_count": 0,
+      "mid_count": 0,
+      "action": "安全"
+    },
+    "603259": {
+      "name": "药明康德",
+      "flags": [],
+      "score": 0,
+      "high_count": 0,
+      "mid_count": 0,
+      "action": "安全"
+    },
+    "002714": {
+      "name": "牧原股份",
+      "flags": [],
+      "score": 0,
+      "high_count": 0,
+      "mid_count": 0,
+      "action": "安全"
+    },
+    "601899": {
+      "name": "紫金矿业",
+      "flags": [],
+      "score": 0,
+      "high_count": 0,
+      "mid_count": 0,
+      "action": "安全"
+    },
+    "600809": {
+      "name": "山西汾酒",
+      "flags": [],
+      "score": 0,
+      "high_count": 0,
+      "mid_count": 0,
+      "action": "安全"
+    }
+  },
+  "valuation": {
+    "stocks": {
+      "600519": {
+        "name": "贵州茅台",
+        "pe": 20.13,
+        "pb": 7.05,
+        "ps": 10.24,
+        "dividend_yield": 0.72,
+        "pe_percentile": 36.4,
+        "pb_percentile": 82.5,
+        "ps_percentile": 41.4,
+        "div_percentile": 14.4,
+        "pe_label": "⚪ 中性",
+        "pb_label": "🟠 偏高",
+        "ps_label": "⚪ 中性",
+        "div_label": "🔵 偏低"
+      },
+      "300750": {
+        "name": "宁德时代",
+        "pe": 27.23,
+        "pb": 5.83,
+        "ps": 3.45,
+        "dividend_yield": 0.15,
+        "pe_percentile": 44.9,
+        "pb_percentile": 77.6,
+        "ps_percentile": 49.9,
+        "div_percentile": 5.0,
+        "pe_label": "⚪ 中性",
+        "pb_label": "🟠 偏高",
+        "ps_label": "⚪ 中性",
+        "div_label": "❄️ 历史地板"
+      },
+      "601318": {
+        "name": "中国平安",
+        "pe": 7.92,
+        "pb": 1.07,
+        "ps": 0.62,
+        "dividend_yield": 4.15,
+        "pe_percentile": 25.6,
+        "pb_percentile": 6.4,
+        "ps_percentile": 20.6,
+        "div_percentile": 83.0,
+        "pe_label": "🔵 偏低",
+        "pb_label": "❄️ 历史地板",
+        "ps_label": "🔵 偏低",
+        "div_label": "🟠 偏高"
+      },
+      "000858": {
+        "name": "五粮液",
+        "pe": 14.07,
+        "pb": 2.81,
+        "ps": 4.18,
+        "dividend_yield": 4.53,
+        "pe_percentile": 29.5,
+        "pb_percentile": 44.0,
+        "ps_percentile": 34.5,
+        "div_percentile": 90.6,
+        "pe_label": "🔵 偏低",
+        "pb_label": "⚪ 中性",
+        "ps_label": "⚪ 中性",
+        "div_label": "🔥 历史天花板"
+      },
+      "002594": {
+        "name": "比亚迪",
+        "pe": 29.02,
+        "pb": 4.16,
+        "ps": 1.18,
+        "dividend_yield": 0.34,
+        "pe_percentile": 46.7,
+        "pb_percentile": 64.3,
+        "ps_percentile": 41.7,
+        "div_percentile": 6.8,
+        "pe_label": "⚪ 中性",
+        "pb_label": "⚪ 中性",
+        "ps_label": "⚪ 中性",
+        "div_label": "❄️ 历史地板"
+      },
+      "600036": {
+        "name": "招商银行",
+        "pe": 6.57,
+        "pb": 0.9,
+        "ps": 1.52,
+        "dividend_yield": 5.04,
+        "pe_percentile": 25.1,
+        "pb_percentile": 4.0,
+        "ps_percentile": 20.1,
+        "div_percentile": 95.0,
+        "pe_label": "🔵 偏低",
+        "pb_label": "❄️ 历史地板",
+        "ps_label": "🔵 偏低",
+        "div_label": "🔥 历史天花板"
+      },
+      "000333": {
+        "name": "美的集团",
+        "pe": 13.25,
+        "pb": 2.61,
+        "ps": 1.68,
+        "dividend_yield": 4.57,
+        "pe_percentile": 28.7,
+        "pb_percentile": 39.8,
+        "ps_percentile": 23.7,
+        "div_percentile": 91.4,
+        "pe_label": "🔵 偏低",
+        "pb_label": "⚪ 中性",
+        "ps_label": "🔵 偏低",
+        "div_label": "🔥 历史天花板"
+      },
+      "601012": {
+        "name": "隆基绿能",
+        "pe": null,
+        "pb": 2.34,
+        "ps": 1.12,
+        "dividend_yield": 1.03,
+        "pe_percentile": 16.6,
+        "pb_percentile": 33.9,
+        "ps_percentile": 11.6,
+        "div_percentile": 20.6,
+        "pe_label": "⚪ 亏损",
+        "pb_label": "⚪ 中性",
+        "ps_label": "🔵 偏低",
+        "div_label": "🔵 偏低"
+      },
+      "300059": {
+        "name": "东方财富",
+        "pe": 26.35,
+        "pb": 3.47,
+        "ps": 12.85,
+        "dividend_yield": 0.4,
+        "pe_percentile": 43.9,
+        "pb_percentile": 55.0,
+        "ps_percentile": 48.9,
+        "div_percentile": 8.0,
+        "pe_label": "⚪ 中性",
+        "pb_label": "⚪ 中性",
+        "ps_label": "⚪ 中性",
+        "div_label": "❄️ 历史地板"
+      },
+      "002475": {
+        "name": "立讯精密",
+        "pe": 25.96,
+        "pb": 5.41,
+        "ps": 1.85,
+        "dividend_yield": 0.85,
+        "pe_percentile": 43.5,
+        "pb_percentile": 72.9,
+        "ps_percentile": 38.5,
+        "div_percentile": 17.0,
+        "pe_label": "⚪ 中性",
+        "pb_label": "🟠 偏高",
+        "ps_label": "⚪ 中性",
+        "div_label": "🔵 偏低"
+      },
+      "600900": {
+        "name": "长江电力",
+        "pe": 19.79,
+        "pb": 2.92,
+        "ps": 3.82,
+        "dividend_yield": 3.1,
+        "pe_percentile": 36.0,
+        "pb_percentile": 46.4,
+        "ps_percentile": 41.0,
+        "div_percentile": 62.0,
+        "pe_label": "⚪ 中性",
+        "pb_label": "⚪ 中性",
+        "ps_label": "⚪ 中性",
+        "div_label": "⚪ 中性"
+      },
+      "603259": {
+        "name": "药明康德",
+        "pe": 16.6,
+        "pb": 3.99,
+        "ps": 3.28,
+        "dividend_yield": 0.8,
+        "pe_percentile": 32.4,
+        "pb_percentile": 62.2,
+        "ps_percentile": 37.4,
+        "div_percentile": 16.0,
+        "pe_label": "⚪ 中性",
+        "pb_label": "⚪ 中性",
+        "ps_label": "⚪ 中性",
+        "div_label": "🔵 偏低"
+      },
+      "002714": {
+        "name": "牧原股份",
+        "pe": 17.07,
+        "pb": 3.45,
+        "ps": 1.95,
+        "dividend_yield": 0.92,
+        "pe_percentile": 32.8,
+        "pb_percentile": 54.7,
+        "ps_percentile": 27.8,
+        "div_percentile": 18.4,
+        "pe_label": "⚪ 中性",
+        "pb_label": "⚪ 中性",
+        "ps_label": "🔵 偏低",
+        "div_label": "🔵 偏低"
+      },
+      "601899": {
+        "name": "紫金矿业",
+        "pe": 17.87,
+        "pb": 5.03,
+        "ps": 1.38,
+        "dividend_yield": 1.58,
+        "pe_percentile": 34.0,
+        "pb_percentile": 72.4,
+        "ps_percentile": 29.0,
+        "div_percentile": 31.6,
+        "pe_label": "⚪ 中性",
+        "pb_label": "🟠 偏高",
+        "ps_label": "🔵 偏低",
+        "div_label": "⚪ 中性"
+      },
+      "600809": {
+        "name": "山西汾酒",
+        "pe": 13.8,
+        "pb": 4.37,
+        "ps": 5.85,
+        "dividend_yield": 3.8,
+        "pe_percentile": 29.2,
+        "pb_percentile": 66.9,
+        "ps_percentile": 34.2,
+        "div_percentile": 76.0,
+        "pe_label": "🔵 偏低",
+        "pb_label": "⚪ 中性",
+        "ps_label": "⚪ 中性",
+        "div_label": "🟠 偏高"
+      }
+    },
+    "floor_top10": [
+      {
+        "code": "600036",
+        "name": "招商银行",
+        "pe_pct": 25.1
+      },
+      {
+        "code": "601318",
+        "name": "中国平安",
+        "pe_pct": 25.6
+      },
+      {
+        "code": "000333",
+        "name": "美的集团",
+        "pe_pct": 28.7
+      },
+      {
+        "code": "600809",
+        "name": "山西汾酒",
+        "pe_pct": 29.2
+      },
+      {
+        "code": "000858",
+        "name": "五粮液",
+        "pe_pct": 29.5
+      },
+      {
+        "code": "603259",
+        "name": "药明康德",
+        "pe_pct": 32.4
+      },
+      {
+        "code": "002714",
+        "name": "牧原股份",
+        "pe_pct": 32.8
+      },
+      {
+        "code": "601899",
+        "name": "紫金矿业",
+        "pe_pct": 34.0
+      },
+      {
+        "code": "600900",
+        "name": "长江电力",
+        "pe_pct": 36.0
+      },
+      {
+        "code": "600519",
+        "name": "贵州茅台",
+        "pe_pct": 36.4
+      }
+    ],
+    "ceiling_top10": [
+      {
+        "code": "002594",
+        "name": "比亚迪",
+        "pe_pct": 46.7
+      },
+      {
+        "code": "300750",
+        "name": "宁德时代",
+        "pe_pct": 44.9
+      },
+      {
+        "code": "300059",
+        "name": "东方财富",
+        "pe_pct": 43.9
+      },
+      {
+        "code": "002475",
+        "name": "立讯精密",
+        "pe_pct": 43.5
+      },
+      {
+        "code": "600519",
+        "name": "贵州茅台",
+        "pe_pct": 36.4
+      },
+      {
+        "code": "600900",
+        "name": "长江电力",
+        "pe_pct": 36.0
+      },
+      {
+        "code": "601899",
+        "name": "紫金矿业",
+        "pe_pct": 34.0
+      },
+      {
+        "code": "002714",
+        "name": "牧原股份",
+        "pe_pct": 32.8
+      },
+      {
+        "code": "603259",
+        "name": "药明康德",
+        "pe_pct": 32.4
+      },
+      {
+        "code": "000858",
+        "name": "五粮液",
+        "pe_pct": 29.5
+      }
+    ]
+  },
+  "chain_heat": {
+    "新能源汽车产业链": {
+      "stage": "主升",
+      "emoji": "🚀",
+      "avg_5d": 3.8,
+      "avg_20d": 12.5,
+      "avg_60d": 22.3,
+      "zt_count": 5,
+      "stock_count": 12,
+      "representative_stocks": [
+        "宁德时代",
+        "比亚迪"
+      ]
+    },
+    "光伏产业链": {
+      "stage": "退潮",
+      "emoji": "📉",
+      "avg_5d": -1.2,
+      "avg_20d": -6.8,
+      "avg_60d": -12.6,
+      "zt_count": 0,
+      "stock_count": 8,
+      "representative_stocks": [
+        "隆基绿能"
+      ]
+    },
+    "半导体产业链": {
+      "stage": "萌芽",
+      "emoji": "🌱",
+      "avg_5d": 2.1,
+      "avg_20d": 5.8,
+      "avg_60d": 8.2,
+      "zt_count": 3,
+      "stock_count": 10,
+      "representative_stocks": [
+        "立讯精密"
+      ]
+    },
+    "白酒产业链": {
+      "stage": "沉睡",
+      "emoji": "💤",
+      "avg_5d": 1.1,
+      "avg_20d": 2.3,
+      "avg_60d": 4.5,
+      "zt_count": 0,
+      "stock_count": 8,
+      "representative_stocks": [
+        "贵州茅台",
+        "五粮液",
+        "山西汾酒"
+      ]
+    },
+    "医药产业链": {
+      "stage": "萌芽",
+      "emoji": "🌱",
+      "avg_5d": 1.5,
+      "avg_20d": 4.2,
+      "avg_60d": 6.8,
+      "zt_count": 1,
+      "stock_count": 10,
+      "representative_stocks": [
+        "药明康德"
+      ]
+    }
+  },
+  "expectation": {
+    "stocks": [
+      {
+        "code": "600519",
+        "name": "贵州茅台",
+        "eps_2025": 71.5,
+        "eps_2026": 75.3,
+        "growth_rate": 5.3,
+        "rating": "买入",
+        "analyst_count": 42,
+        "expect_diff": 2.1
+      },
+      {
+        "code": "300750",
+        "name": "宁德时代",
+        "eps_2025": 15.82,
+        "eps_2026": 20.1,
+        "growth_rate": 27.1,
+        "rating": "买入",
+        "analyst_count": 38,
+        "expect_diff": -1.5
+      },
+      {
+        "code": "601318",
+        "name": "中国平安",
+        "eps_2025": 7.45,
+        "eps_2026": 8.15,
+        "growth_rate": 9.4,
+        "rating": "增持",
+        "analyst_count": 28,
+        "expect_diff": 3.8
+      },
+      {
+        "code": "000858",
+        "name": "五粮液",
+        "eps_2025": 7.33,
+        "eps_2026": 7.82,
+        "growth_rate": 6.7,
+        "rating": "买入",
+        "analyst_count": 31,
+        "expect_diff": 1.2
+      },
+      {
+        "code": "002594",
+        "name": "比亚迪",
+        "eps_2025": 3.58,
+        "eps_2026": 4.12,
+        "growth_rate": 15.1,
+        "rating": "增持",
+        "analyst_count": 35,
+        "expect_diff": -2.8
+      },
+      {
+        "code": "600036",
+        "name": "招商银行",
+        "eps_2025": 5.96,
+        "eps_2026": 6.35,
+        "growth_rate": 6.5,
+        "rating": "增持",
+        "analyst_count": 24,
+        "expect_diff": 1.5
+      },
+      {
+        "code": "000333",
+        "name": "美的集团",
+        "eps_2025": 5.78,
+        "eps_2026": 6.25,
+        "growth_rate": 8.1,
+        "rating": "买入",
+        "analyst_count": 30,
+        "expect_diff": 0.8
+      },
+      {
+        "code": "601012",
+        "name": "隆基绿能",
+        "eps_2025": -0.73,
+        "eps_2026": 0.35,
+        "growth_rate": -48.1,
+        "rating": "中性",
+        "analyst_count": 18,
+        "expect_diff": -5.2
+      },
+      {
+        "code": "300059",
+        "name": "东方财富",
+        "eps_2025": 0.76,
+        "eps_2026": 0.92,
+        "growth_rate": 21.1,
+        "rating": "增持",
+        "analyst_count": 22,
+        "expect_diff": -1.0
+      },
+      {
+        "code": "002475",
+        "name": "立讯精密",
+        "eps_2025": 2.28,
+        "eps_2026": 2.93,
+        "growth_rate": 28.7,
+        "rating": "买入",
+        "analyst_count": 26,
+        "expect_diff": 4.5
+      },
+      {
+        "code": "600900",
+        "name": "长江电力",
+        "eps_2025": 1.34,
+        "eps_2026": 1.39,
+        "growth_rate": 3.7,
+        "rating": "增持",
+        "analyst_count": 15,
+        "expect_diff": 0.5
+      },
+      {
+        "code": "603259",
+        "name": "药明康德",
+        "eps_2025": 6.42,
+        "eps_2026": 7.18,
+        "growth_rate": 11.8,
+        "rating": "增持",
+        "analyst_count": 20,
+        "expect_diff": -3.2
+      },
+      {
+        "code": "002714",
+        "name": "牧原股份",
+        "eps_2025": 2.68,
+        "eps_2026": 1.59,
+        "growth_rate": -40.5,
+        "rating": "中性",
+        "analyst_count": 19,
+        "expect_diff": -6.8
+      },
+      {
+        "code": "601899",
+        "name": "紫金矿业",
+        "eps_2025": 1.95,
+        "eps_2026": 2.15,
+        "growth_rate": 10.3,
+        "rating": "买入",
+        "analyst_count": 25,
+        "expect_diff": 2.5
+      },
+      {
+        "code": "600809",
+        "name": "山西汾酒",
+        "eps_2025": 10.08,
+        "eps_2026": 11.12,
+        "growth_rate": 10.3,
+        "rating": "买入",
+        "analyst_count": 23,
+        "expect_diff": 1.8
+      }
+    ],
+    "beat_rank": [
+      {
+        "code": "601318",
+        "name": "中国平安",
+        "diff": 3.8,
+        "period": "2025Q4"
+      },
+      {
+        "code": "002475",
+        "name": "立讯精密",
+        "diff": 4.5,
+        "period": "2025Q4"
+      },
+      {
+        "code": "601899",
+        "name": "紫金矿业",
+        "diff": 2.5,
+        "period": "2025Q4"
+      },
+      {
+        "code": "600519",
+        "name": "贵州茅台",
+        "diff": 2.1,
+        "period": "2025Q4"
+      },
+      {
+        "code": "600809",
+        "name": "山西汾酒",
+        "diff": 1.8,
+        "period": "2025Q4"
+      }
+    ],
+    "miss_rank": [
+      {
+        "code": "002714",
+        "name": "牧原股份",
+        "diff": -6.8,
+        "period": "2025Q4"
+      },
+      {
+        "code": "601012",
+        "name": "隆基绿能",
+        "diff": -5.2,
+        "period": "2025Q4"
+      },
+      {
+        "code": "603259",
+        "name": "药明康德",
+        "diff": -3.2,
+        "period": "2025Q4"
+      },
+      {
+        "code": "002594",
+        "name": "比亚迪",
+        "diff": -2.8,
+        "period": "2025Q4"
+      },
+      {
+        "code": "300750",
+        "name": "宁德时代",
+        "diff": -1.5,
+        "period": "2025Q4"
+      }
+    ]
+  },
+  "catalysts": [
+    {
+      "code": "603259",
+      "name": "药明康德",
+      "type": "解禁",
+      "date": "2026-04-22",
+      "detail": "定向增发解禁2.3亿股"
+    },
+    {
+      "code": "600900",
+      "name": "长江电力",
+      "type": "财报",
+      "date": "2026-04-25",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "600036",
+      "name": "招商银行",
+      "type": "财报",
+      "date": "2026-04-25",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "601318",
+      "name": "中国平安",
+      "type": "财报",
+      "date": "2026-04-26",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "300059",
+      "name": "东方财富",
+      "type": "财报",
+      "date": "2026-04-26",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "000858",
+      "name": "五粮液",
+      "type": "财报",
+      "date": "2026-04-27",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "002475",
+      "name": "立讯精密",
+      "type": "财报",
+      "date": "2026-04-27",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "601899",
+      "name": "紫金矿业",
+      "type": "财报",
+      "date": "2026-04-27",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "600519",
+      "name": "贵州茅台",
+      "type": "财报",
+      "date": "2026-04-28",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "002594",
+      "name": "比亚迪",
+      "type": "财报",
+      "date": "2026-04-28",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "601012",
+      "name": "隆基绿能",
+      "type": "财报",
+      "date": "2026-04-28",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "600809",
+      "name": "山西汾酒",
+      "type": "财报",
+      "date": "2026-04-28",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "type": "财报",
+      "date": "2026-04-29",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "000333",
+      "name": "美的集团",
+      "type": "财报",
+      "date": "2026-04-29",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "002714",
+      "name": "牧原股份",
+      "type": "财报",
+      "date": "2026-04-29",
+      "detail": "2026Q1季报"
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "type": "解禁",
+      "date": "2026-05-06",
+      "detail": "定增解禁1.2亿股"
+    },
+    {
+      "code": "600519",
+      "name": "贵州茅台",
+      "type": "分红",
+      "date": "2026-05-08",
+      "detail": "年度分红登记日"
+    },
+    {
+      "code": "000858",
+      "name": "五粮液",
+      "type": "分红",
+      "date": "2026-05-09",
+      "detail": "年度分红登记日"
+    },
+    {
+      "code": "002594",
+      "name": "比亚迪",
+      "type": "分红",
+      "date": "2026-05-10",
+      "detail": "除权除息日"
+    },
+    {
+      "code": "601318",
+      "name": "中国平安",
+      "type": "分红",
+      "date": "2026-05-12",
+      "detail": "年度分红登记日"
+    }
+  ],
+  "trade_log": []
+}
